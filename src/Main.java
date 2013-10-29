@@ -42,7 +42,7 @@ public class Main extends JFrame {
 	public void paint(Graphics g){
 		Graphics2D g2d = (Graphics2D)g;
 		g2d.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
-		g.drawString("This is gonna be awesome", 200, 200);
+		g.drawString("This is gonna be awesome, im editing on the testing branch", 200, 200);
 	}
 	
 
